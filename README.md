@@ -8,7 +8,7 @@
 
 ## 中文简介
 
-为 CIR 整合包维护的中文补译、译名修订和模组指南资源包。当前仓库保留 **61 个资源命名空间**，含 **89 份语言文件**及 **289 份指南相关文件**；其中 **持续支持 34 项，暂停支持 27 项**。持续维护范围包括 AE2 及附属指南、机械动力及在用附属、幽邃黑暗、神化系列、灾变、FTB Quests 等；新生魔艺、植物魔法相关历史资源及其他暂停条目见下方支持状态表。
+为 CIR 整合包维护的中文补译、译名修订和模组指南资源包。当前仓库保留 **61 个资源命名空间**，含 **89 份语言文件**及 **289 份指南相关文件**；其中 **持续支持 35 项，暂停支持 24 项，可能恢复支持 2 项**。持续维护范围包括 AE2 及附属指南、机械动力及在用附属、幽邃黑暗、神化系列、灾变、FTB Quests 等；新生魔艺、植物魔法相关历史资源及其他暂停条目见下方支持状态表。
 
 覆盖范围以本仓库实际文件为准：部分模组只包含少量补译或译名覆盖，不代表所有模组均已完整汉化。资源目录中的旧命名空间也单独计数，因此命名空间数量不等于独立模组数量。
 
@@ -28,7 +28,7 @@
 
 ## English introduction
 
-A Chinese localization resource pack maintained for the CIR modpack, containing translation additions, terminology corrections and localized mod guides. The repository retains **61 resource namespaces**, with **89 language files** and **289 guide-related files**: **34 entries are actively supported and 27 are paused**. Active coverage includes AE2 and addon guides, Create and currently used addons, Deeper and Darker, Apotheosis and addons, Cataclysm, FTB Quests and more. Historical Ars/Botania-related content and other paused entries are identified in the support-status tables below.
+A Chinese localization resource pack maintained for the CIR modpack, containing translation additions, terminology corrections and localized mod guides. The repository retains **61 resource namespaces**, with **89 language files** and **289 guide-related files**: **35 entries are actively supported, 24 are paused, and support may resume for 2 entries**. Active coverage includes AE2 and addon guides, Create and currently used addons, Deeper and Darker, Apotheosis and addons, Cataclysm, FTB Quests and more. Historical Ars/Botania-related content and other paused entries are identified in the support-status tables below.
 
 Coverage varies by namespace. Some entries are small translation overrides rather than complete translations. Legacy namespaces are listed separately, so the namespace total is not the number of distinct mods. See the inventory below for the actual shipped files.
 
@@ -48,14 +48,15 @@ Original authors and joint contributors can be added to [CONTRIBUTORS.md](CONTRI
 
 ## 支持状态与已包含资源 / Support status and included resources
 
-核对日期：**2026-11-23**。基于本地 **CIR-MODPACK-v4.1（Minecraft 1.21.1）** 客户端的模组 JAR 元数据，对已列出的 61 个资源命名空间逐项分类：**持续支持 34 项，暂停支持 27 项**。
+核对日期：**2026-11-23**。基于本地 **CIR-MODPACK-v4.1（Minecraft 1.21.1）** 客户端模组 JAR 元数据，并结合维护者确认的服务端使用情况与后续计划，对已列出的 61 个资源命名空间逐项分类：**持续支持 35 项，暂停支持 24 项，可能恢复支持 2 项**。
 
-Checked on **2026-11-23** against the local **CIR-MODPACK-v4.1 (Minecraft 1.21.1)** client mod metadata: **34 actively supported entries and 27 paused entries** across the 61 listed resource namespaces.
+Checked on **2026-11-23** against the local **CIR-MODPACK-v4.1 (Minecraft 1.21.1)** client mod metadata, together with maintainer-confirmed server usage and future plans: **35 actively supported entries, 24 paused entries, and 2 entries for which support may resume** across the 61 listed resource namespaces.
 
 ### 分类规则 / Classification rules
 
-- **持续支持 / Active**：对应模组仍在当前客户端中，并且未被下述系列暂停策略覆盖。`expatternprovider` 按其对应的 ExtendedAE 项目判定，保留旧命名空间兼容。 / The target mod is installed and is not covered by a family-wide pause below. The legacy `expatternprovider` namespace follows the installed ExtendedAE project.
-- **暂停支持 / Paused**：新生魔艺、植物魔法及相关模组自 **2025-12** 暂停；Mekanism 及相关模组自 **2025-07** 暂停。其他不在当前客户端中的旧条目也归入暂停支持，但不推定其历史暂停日期。 / Ars Nouveau, Botania and related mods have been paused since **2025-12**; Mekanism and related mods since **2025-07**. Other historical entries absent from this client are also paused, with no historical date inferred.
+- **持续支持 / Active**：对应模组仍在当前客户端或服务端使用，并且未被下述系列暂停策略覆盖。Terralith 根据维护者确认的服务端使用情况持续支持；`expatternprovider` 按其对应的 ExtendedAE 项目判定。 / The target mod is still used by the client or server and is not covered by a family-wide pause below. Terralith remains supported based on maintainer-confirmed server usage; the legacy `expatternprovider` namespace follows the installed ExtendedAE project.
+- **暂停支持 / Paused**：新生魔艺、植物魔法及相关模组自 **2025-12** 暂停；Mekanism 及相关模组自 **2025-07** 暂停。其他不在当前客户端中、且未另行确认持续支持或可能恢复支持的旧条目归入暂停支持，不推定其历史暂停日期。 / Ars Nouveau, Botania and related mods have been paused since **2025-12**; Mekanism and related mods since **2025-07**. Other historical entries absent from this client are paused unless active support or possible resumption has been separately confirmed; no historical date is inferred.
+- **可能恢复支持 / Support may resume**：锦制乐事与应用机械未来可能重新纳入维护，目前没有确定的恢复时间。 / Supplementaries Delight and Applied Kinetics may return to the maintenance scope in the future; no resumption date is committed.
 - 暂停支持表示不再持续跟进相应模组版本；已有历史资源仍保留在包中。状态反映本汉化项目的维护范围，不代表原模组自身停止维护。 / Paused support describes this localization project's maintenance scope. Existing historical files remain available; the status does not imply that the upstream mod is discontinued.
 
 ### 系列维护时间 / Family maintenance history
@@ -68,7 +69,7 @@ Checked on **2026-11-23** against the local **CIR-MODPACK-v4.1 (Minecraft 1.21.1
 
 语言与指南列为文件数量；指南可能包含 Markdown、图片及 SNBT，不单指指南页数。 / Language and guide columns count files; guides include Markdown, images and SNBT, not only pages.
 
-### 持续支持 / Active support (34)
+### 持续支持 / Active support (35)
 
 | 模组／项目 / Mod or project | 命名空间 / Namespace | 语言 / Language files | 指南 / Guide files | 核对说明 / Notes |
 |---|---|---:|---:|---|
@@ -106,8 +107,9 @@ Checked on **2026-11-23** against the local **CIR-MODPACK-v4.1 (Minecraft 1.21.1
 | Regions Unexplored | `regions_unexplored` | 1 | 0 | 当前客户端已安装 / Installed in the current client |
 | Sable | `sable` | 1 | 0 | 当前客户端已安装 / Installed in the current client |
 | Supplementaries | `supplementaries` | 1 | 0 | 当前客户端已安装 / Installed in the current client |
+| Terralith | `terralith` | 26 | 0 | 服务端仍在使用，按维护者确认持续支持 / Still used on the server; continued support confirmed by the maintainer |
 
-### 暂停支持 / Paused support (27)
+### 暂停支持 / Paused support (24)
 
 | 模组／项目 / Mod or project | 命名空间 / Namespace | 语言 / Language files | 指南 / Guide files | 暂停时间 / Paused since | 原因 / Reason |
 |---|---|---:|---:|---|---|
@@ -121,7 +123,6 @@ Checked on **2026-11-23** against the local **CIR-MODPACK-v4.1 (Minecraft 1.21.1
 | Create: Connected | `create_connected` | 1 | 0 | 未指定 / Unspecified | 当前客户端未安装；历史暂停时间未指定 / Absent from the current client; historical pause date unspecified |
 | Create: Factory Logistics | `create_factory_logistics` | 1 | 0 | 未指定 / Unspecified | 当前客户端未安装；历史暂停时间未指定 / Absent from the current client; historical pause date unspecified |
 | create_mechanical_extruder | `create_mechanical_extruder` | 1 | 0 | 未指定 / Unspecified | 当前客户端未安装；历史暂停时间未指定 / Absent from the current client; historical pause date unspecified |
-| createappliedkinetics | `createappliedkinetics` | 1 | 0 | 未指定 / Unspecified | 当前客户端未安装；历史暂停时间未指定 / Absent from the current client; historical pause date unspecified |
 | createsifter | `createsifter` | 1 | 0 | 未指定 / Unspecified | 当前客户端未安装；历史暂停时间未指定 / Absent from the current client; historical pause date unspecified |
 | crystal_clear | `crystal_clear` | 1 | 0 | 未指定 / Unspecified | 当前客户端未安装；历史暂停时间未指定 / Absent from the current client; historical pause date unspecified |
 | design_decor | `design_decor` | 1 | 0 | 未指定 / Unspecified | 当前客户端未安装；历史暂停时间未指定 / Absent from the current client; historical pause date unspecified |
@@ -130,14 +131,19 @@ Checked on **2026-11-23** against the local **CIR-MODPACK-v4.1 (Minecraft 1.21.1
 | moderntrainparts | `moderntrainparts` | 1 | 0 | 未指定 / Unspecified | 当前客户端未安装；历史暂停时间未指定 / Absent from the current client; historical pause date unspecified |
 | nethersdelight | `nethersdelight` | 1 | 0 | 未指定 / Unspecified | 当前客户端未安装；历史暂停时间未指定 / Absent from the current client; historical pause date unspecified |
 | starbunclemania | `starbunclemania` | 1 | 0 | 2025-12 | 新生魔艺／植物魔法相关，按维护计划暂停 / Ars or Botania family; paused by maintenance policy |
-| supplementariesdelight | `supplementariesdelight` | 1 | 0 | 未指定 / Unspecified | 当前客户端未安装；历史暂停时间未指定 / Absent from the current client; historical pause date unspecified |
-| terralith | `terralith` | 26 | 0 | 未指定 / Unspecified | 当前客户端未安装；历史暂停时间未指定 / Absent from the current client; historical pause date unspecified |
 | tofucraft | `tofucraft` | 1 | 0 | 未指定 / Unspecified | 当前客户端未安装；历史暂停时间未指定 / Absent from the current client; historical pause date unspecified |
 | tofucreate | `tofucreate` | 1 | 0 | 未指定 / Unspecified | 当前客户端未安装；历史暂停时间未指定 / Absent from the current client; historical pause date unspecified |
 | tofudelight | `tofudelight` | 1 | 0 | 未指定 / Unspecified | 当前客户端未安装；历史暂停时间未指定 / Absent from the current client; historical pause date unspecified |
 | totemfactory | `totemfactory` | 1 | 0 | 未指定 / Unspecified | 当前客户端未安装；历史暂停时间未指定 / Absent from the current client; historical pause date unspecified |
 | vinery | `vinery` | 1 | 0 | 未指定 / Unspecified | 当前客户端未安装；历史暂停时间未指定 / Absent from the current client; historical pause date unspecified |
 | Weather2 | `weather2` | 1 | 0 | 未指定 / Unspecified | 当前客户端未安装；历史暂停时间未指定 / Absent from the current client; historical pause date unspecified |
+
+### 可能恢复支持 / Support may resume (2)
+
+| 模组／项目 / Mod or project | 命名空间 / Namespace | 语言 / Language files | 指南 / Guide files | 说明 / Notes |
+|---|---|---:|---:|---|
+| 锦制乐事 / Supplementaries Delight | `supplementariesdelight` | 1 | 0 | 可能恢复支持，尚无确定时间 / Support may resume; no date committed |
+| 应用机械 / Applied Kinetics | `createappliedkinetics` | 1 | 0 | 可能恢复支持，尚无确定时间 / Support may resume; no date committed |
 
 ## 打包 / Build
 
@@ -146,4 +152,5 @@ Checked on **2026-11-23** against the local **CIR-MODPACK-v4.1 (Minecraft 1.21.1
 
 首次公开发布仅修正一处 AE2 语言文件末尾逗号，并更新发布说明与资源包显示版本；已有译文、指南与图片保持原内容。
 The first public release removes a trailing comma from one AE2 language file and updates publication metadata; existing translation wording, guides and images are preserved.
+
 
