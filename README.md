@@ -8,7 +8,7 @@
 
 ## 中文简介
 
-为 CIR 整合包维护的中文补译、译名修订和模组指南资源包。目前覆盖 **61 个资源命名空间**，含 **89 份语言文件**及 **289 份指南相关文件**。内容包括 AE2 及附属指南、机械动力及附属、新生魔艺系列、乐事系列、幽邃黑暗、神化系列、灾变、FTB Quests 等。
+为 CIR 整合包维护的中文补译、译名修订和模组指南资源包。当前仓库保留 **61 个资源命名空间**，含 **89 份语言文件**及 **289 份指南相关文件**；其中 **持续支持 34 项，暂停支持 27 项**。持续维护范围包括 AE2 及附属指南、机械动力及在用附属、幽邃黑暗、神化系列、灾变、FTB Quests 等；新生魔艺、植物魔法相关历史资源及其他暂停条目见下方支持状态表。
 
 覆盖范围以本仓库实际文件为准：部分模组只包含少量补译或译名覆盖，不代表所有模组均已完整汉化。资源目录中的旧命名空间也单独计数，因此命名空间数量不等于独立模组数量。
 
@@ -28,7 +28,7 @@
 
 ## English introduction
 
-A Chinese localization resource pack maintained for the CIR modpack, containing translation additions, terminology corrections and localized mod guides. The current release covers **61 resource namespaces**, with **89 language files** and **289 guide-related files**. It includes AE2 and addon guides, Create and addons, the Ars family, Delight addons, Deeper and Darker, Apotheosis and addons, Cataclysm, FTB Quests and more.
+A Chinese localization resource pack maintained for the CIR modpack, containing translation additions, terminology corrections and localized mod guides. The repository retains **61 resource namespaces**, with **89 language files** and **289 guide-related files**: **34 entries are actively supported and 27 are paused**. Active coverage includes AE2 and addon guides, Create and currently used addons, Deeper and Darker, Apotheosis and addons, Cataclysm, FTB Quests and more. Historical Ars/Botania-related content and other paused entries are identified in the support-status tables below.
 
 Coverage varies by namespace. Some entries are small translation overrides rather than complete translations. Legacy namespaces are listed separately, so the namespace total is not the number of distinct mods. See the inventory below for the actual shipped files.
 
@@ -46,74 +46,98 @@ The bundled AE2-family guides originate from **CFPAOrg / Minecraft-Mod-Language-
 
 Original authors and joint contributors can be added to [CONTRIBUTORS.md](CONTRIBUTORS.md) after their preferred credit and contribution scope are confirmed. Unconfirmed accounts and email addresses are not pre-filled. Contribution and credit-update instructions are in [CONTRIBUTING.md](CONTRIBUTING.md).
 
-## 已包含资源 / Included resources
+## 支持状态与已包含资源 / Support status and included resources
 
-语言与指南列为文件数量；指南可能包含 Markdown、图片及 SNBT，不单指指南页数。
-Language and guide columns count files; guides include Markdown, images and SNBT, not only pages.
+核对日期：**2026-11-23**。基于本地 **CIR-MODPACK-v4.1（Minecraft 1.21.1）** 客户端的模组 JAR 元数据，对已列出的 61 个资源命名空间逐项分类：**持续支持 34 项，暂停支持 27 项**。
 
-| 模组／项目 / Mod or project | 命名空间 / Namespace | 语言 / Language files | 指南 / Guide files |
-|---|---|---:|---:|
-| Advanced AE | `advanced_ae` | 0 | 18 |
-| Applied Energistics 2 | `ae2` | 1 | 143 |
-| AE2 Lightning Tech | `ae2lt` | 2 | 0 |
-| AE2WTLib | `ae2wtlib` | 0 | 7 |
-| Anvil Repairing | `anvilrepairing` | 1 | 0 |
-| Apotheosis | `apotheosis` | 3 | 0 |
-| Apothic Attributes | `apothic_attributes` | 1 | 0 |
-| Apothic Compats | `apothic_compats` | 1 | 0 |
-| Applied Botanics | `appbot` | 1 | 0 |
-| AppliedFlux | `appflux` | 1 | 15 |
-| Ars Creo | `ars_creo` | 1 | 0 |
-| Ars Elemental | `ars_elemental` | 1 | 0 |
-| Ars Nouveau | `ars_nouveau` | 1 | 38 |
-| Ars Technica | `ars_technica` | 1 | 0 |
-| arseng | `arseng` | 1 | 0 |
-| Caelus API | `caelus` | 1 | 0 |
-| L_Ender's Cataclysm 1.21.1 | `cataclysm` | 1 | 0 |
-| Create: CC Better Recipes | `ccbr` | 1 | 0 |
-| Combat Roll | `combat_roll` | 1 | 0 |
-| Create | `create` | 1 | 0 |
-| Create Confectionery | `create_confectionery` | 1 | 0 |
-| Create: Connected | `create_connected` | 1 | 0 |
-| Create: Factory Logistics | `create_factory_logistics` | 1 | 0 |
-| Create Let The Adventure Begin | `create_ltab` | 1 | 0 |
-| create_mechanical_extruder | `create_mechanical_extruder` | 1 | 0 |
-| Create: Power Loader | `create_power_loader` | 1 | 0 |
-| create: things and misc | `create_things_and_misc` | 1 | 0 |
-| Create Crafts & Additions | `createaddition` | 1 | 0 |
-| createappliedkinetics | `createappliedkinetics` | 1 | 0 |
-| Create Deco | `createdeco` | 1 | 0 |
-| Create Diesel Generators | `createdieselgenerators` | 1 | 0 |
-| createsifter | `createsifter` | 1 | 0 |
-| Create Stock Bridge | `createstockbridge` | 2 | 0 |
-| crystal_clear | `crystal_clear` | 1 | 0 |
-| Deeper and Darker | `deeperdarker` | 1 | 0 |
-| design_decor | `design_decor` | 1 | 0 |
-| dndecor | `dndecor` | 1 | 0 |
-| Expanded Delight | `expandeddelight` | 2 | 0 |
-| ExtendedAE (legacy resource namespace) | `expatternprovider` | 1 | 0 |
-| ExtendedAE | `extendedae` | 0 | 68 |
-| Create: Extra Gauges | `extra_gauges` | 1 | 0 |
-| FTB Quests | `ftbquests` | 1 | 0 |
-| Infernal Mobs | `infernalmobs` | 1 | 0 |
-| Create: Interiors | `interiors` | 1 | 0 |
-| miners_delight | `miners_delight` | 1 | 0 |
-| moderntrainparts | `moderntrainparts` | 1 | 0 |
-| My Nether's Delight | `mynethersdelight` | 1 | 0 |
-| nethersdelight | `nethersdelight` | 1 | 0 |
-| Ocean's Delight | `oceansdelight` | 2 | 0 |
-| Regions Unexplored | `regions_unexplored` | 1 | 0 |
-| Sable | `sable` | 1 | 0 |
-| starbunclemania | `starbunclemania` | 1 | 0 |
-| Supplementaries | `supplementaries` | 1 | 0 |
-| supplementariesdelight | `supplementariesdelight` | 1 | 0 |
-| terralith | `terralith` | 26 | 0 |
-| tofucraft | `tofucraft` | 1 | 0 |
-| tofucreate | `tofucreate` | 1 | 0 |
-| tofudelight | `tofudelight` | 1 | 0 |
-| totemfactory | `totemfactory` | 1 | 0 |
-| vinery | `vinery` | 1 | 0 |
-| Weather2 | `weather2` | 1 | 0 |
+Checked on **2026-11-23** against the local **CIR-MODPACK-v4.1 (Minecraft 1.21.1)** client mod metadata: **34 actively supported entries and 27 paused entries** across the 61 listed resource namespaces.
+
+### 分类规则 / Classification rules
+
+- **持续支持 / Active**：对应模组仍在当前客户端中，并且未被下述系列暂停策略覆盖。`expatternprovider` 按其对应的 ExtendedAE 项目判定，保留旧命名空间兼容。 / The target mod is installed and is not covered by a family-wide pause below. The legacy `expatternprovider` namespace follows the installed ExtendedAE project.
+- **暂停支持 / Paused**：新生魔艺、植物魔法及相关模组自 **2025-12** 暂停；Mekanism 及相关模组自 **2025-07** 暂停。其他不在当前客户端中的旧条目也归入暂停支持，但不推定其历史暂停日期。 / Ars Nouveau, Botania and related mods have been paused since **2025-12**; Mekanism and related mods since **2025-07**. Other historical entries absent from this client are also paused, with no historical date inferred.
+- 暂停支持表示不再持续跟进相应模组版本；已有历史资源仍保留在包中。状态反映本汉化项目的维护范围，不代表原模组自身停止维护。 / Paused support describes this localization project's maintenance scope. Existing historical files remain available; the status does not imply that the upstream mod is discontinued.
+
+### 系列维护时间 / Family maintenance history
+
+| 系列 / Family | 状态 / Status | 暂停时间 / Paused since | 说明 / Notes |
+|---|---|---|---|
+| 新生魔艺及相关模组 / Ars Nouveau and related mods | 暂停支持 / Paused | 2025-12 | 包含下表中的 Ars Creo、Ars Elemental、Ars Nouveau、Ars Technica、arseng、StarbuncleMania / Includes the six listed Ars-related entries |
+| 植物魔法及相关模组 / Botania and related mods | 暂停支持 / Paused | 2025-12 | 当前资源清单中的 Applied Botanics 同属此类 / Applied Botanics in the current inventory follows this policy |
+| Mekanism 及相关模组 / Mekanism and related mods | 暂停支持 / Paused | 2025-07 | 当前包未列出独立 Mekanism 资源命名空间，因此此历史政策不额外计入下面 61 项资源统计 / No separate Mekanism namespace is shipped in the current inventory, so this historical policy is not an extra entry in the 61-namespace totals |
+
+语言与指南列为文件数量；指南可能包含 Markdown、图片及 SNBT，不单指指南页数。 / Language and guide columns count files; guides include Markdown, images and SNBT, not only pages.
+
+### 持续支持 / Active support (34)
+
+| 模组／项目 / Mod or project | 命名空间 / Namespace | 语言 / Language files | 指南 / Guide files | 核对说明 / Notes |
+|---|---|---:|---:|---|
+| Advanced AE | `advanced_ae` | 0 | 18 | 当前客户端已安装 / Installed in the current client |
+| Applied Energistics 2 | `ae2` | 1 | 143 | 当前客户端已安装 / Installed in the current client |
+| AE2 Lightning Tech | `ae2lt` | 2 | 0 | 当前客户端已安装 / Installed in the current client |
+| AE2WTLib | `ae2wtlib` | 0 | 7 | 当前客户端已安装 / Installed in the current client |
+| Apotheosis | `apotheosis` | 3 | 0 | 当前客户端已安装 / Installed in the current client |
+| Apothic Attributes | `apothic_attributes` | 1 | 0 | 当前客户端已安装 / Installed in the current client |
+| Apothic Compats | `apothic_compats` | 1 | 0 | 当前客户端已安装 / Installed in the current client |
+| AppliedFlux | `appflux` | 1 | 15 | 当前客户端已安装 / Installed in the current client |
+| Caelus API | `caelus` | 1 | 0 | 当前客户端已安装 / Installed in the current client |
+| L_Ender's Cataclysm 1.21.1 | `cataclysm` | 1 | 0 | 当前客户端已安装 / Installed in the current client |
+| Create: CC Better Recipes | `ccbr` | 1 | 0 | 当前客户端已安装 / Installed in the current client |
+| Combat Roll | `combat_roll` | 1 | 0 | 当前客户端已安装 / Installed in the current client |
+| Create | `create` | 1 | 0 | 当前客户端已安装 / Installed in the current client |
+| Create Confectionery | `create_confectionery` | 1 | 0 | 当前客户端已安装 / Installed in the current client |
+| Create Let The Adventure Begin | `create_ltab` | 1 | 0 | 当前客户端已安装 / Installed in the current client |
+| Create: Power Loader | `create_power_loader` | 1 | 0 | 当前客户端已安装 / Installed in the current client |
+| create: things and misc | `create_things_and_misc` | 1 | 0 | 当前客户端已安装 / Installed in the current client |
+| Create Crafts & Additions | `createaddition` | 1 | 0 | 当前客户端已安装 / Installed in the current client |
+| Create Deco | `createdeco` | 1 | 0 | 当前客户端已安装 / Installed in the current client |
+| Create Diesel Generators | `createdieselgenerators` | 1 | 0 | 当前客户端已安装 / Installed in the current client |
+| Create Stock Bridge | `createstockbridge` | 2 | 0 | 当前客户端已安装 / Installed in the current client |
+| Deeper and Darker | `deeperdarker` | 1 | 0 | 当前客户端已安装 / Installed in the current client |
+| Expanded Delight | `expandeddelight` | 2 | 0 | 当前客户端已安装 / Installed in the current client |
+| ExtendedAE (legacy resource namespace) | `expatternprovider` | 1 | 0 | 对应已安装的 ExtendedAE；旧命名空间保留兼容 / Legacy namespace of installed ExtendedAE; retained for compatibility |
+| ExtendedAE | `extendedae` | 0 | 68 | 当前客户端已安装 / Installed in the current client |
+| Create: Extra Gauges | `extra_gauges` | 1 | 0 | 当前客户端已安装 / Installed in the current client |
+| FTB Quests | `ftbquests` | 1 | 0 | 当前客户端已安装 / Installed in the current client |
+| Infernal Mobs | `infernalmobs` | 1 | 0 | 当前客户端已安装 / Installed in the current client |
+| Create: Interiors | `interiors` | 1 | 0 | 当前客户端已安装 / Installed in the current client |
+| My Nether's Delight | `mynethersdelight` | 1 | 0 | 当前客户端已安装 / Installed in the current client |
+| Ocean's Delight | `oceansdelight` | 2 | 0 | 当前客户端已安装 / Installed in the current client |
+| Regions Unexplored | `regions_unexplored` | 1 | 0 | 当前客户端已安装 / Installed in the current client |
+| Sable | `sable` | 1 | 0 | 当前客户端已安装 / Installed in the current client |
+| Supplementaries | `supplementaries` | 1 | 0 | 当前客户端已安装 / Installed in the current client |
+
+### 暂停支持 / Paused support (27)
+
+| 模组／项目 / Mod or project | 命名空间 / Namespace | 语言 / Language files | 指南 / Guide files | 暂停时间 / Paused since | 原因 / Reason |
+|---|---|---:|---:|---|---|
+| Anvil Repairing | `anvilrepairing` | 1 | 0 | 未指定 / Unspecified | 当前客户端未安装；历史暂停时间未指定 / Absent from the current client; historical pause date unspecified |
+| Applied Botanics | `appbot` | 1 | 0 | 2025-12 | 新生魔艺／植物魔法相关，按维护计划暂停 / Ars or Botania family; paused by maintenance policy |
+| Ars Creo | `ars_creo` | 1 | 0 | 2025-12 | 新生魔艺／植物魔法相关，按维护计划暂停 / Ars or Botania family; paused by maintenance policy |
+| Ars Elemental | `ars_elemental` | 1 | 0 | 2025-12 | 新生魔艺／植物魔法相关，按维护计划暂停 / Ars or Botania family; paused by maintenance policy |
+| Ars Nouveau | `ars_nouveau` | 1 | 38 | 2025-12 | 新生魔艺／植物魔法相关，按维护计划暂停 / Ars or Botania family; paused by maintenance policy |
+| Ars Technica | `ars_technica` | 1 | 0 | 2025-12 | 新生魔艺／植物魔法相关，按维护计划暂停 / Ars or Botania family; paused by maintenance policy |
+| arseng | `arseng` | 1 | 0 | 2025-12 | 新生魔艺／植物魔法相关，按维护计划暂停 / Ars or Botania family; paused by maintenance policy |
+| Create: Connected | `create_connected` | 1 | 0 | 未指定 / Unspecified | 当前客户端未安装；历史暂停时间未指定 / Absent from the current client; historical pause date unspecified |
+| Create: Factory Logistics | `create_factory_logistics` | 1 | 0 | 未指定 / Unspecified | 当前客户端未安装；历史暂停时间未指定 / Absent from the current client; historical pause date unspecified |
+| create_mechanical_extruder | `create_mechanical_extruder` | 1 | 0 | 未指定 / Unspecified | 当前客户端未安装；历史暂停时间未指定 / Absent from the current client; historical pause date unspecified |
+| createappliedkinetics | `createappliedkinetics` | 1 | 0 | 未指定 / Unspecified | 当前客户端未安装；历史暂停时间未指定 / Absent from the current client; historical pause date unspecified |
+| createsifter | `createsifter` | 1 | 0 | 未指定 / Unspecified | 当前客户端未安装；历史暂停时间未指定 / Absent from the current client; historical pause date unspecified |
+| crystal_clear | `crystal_clear` | 1 | 0 | 未指定 / Unspecified | 当前客户端未安装；历史暂停时间未指定 / Absent from the current client; historical pause date unspecified |
+| design_decor | `design_decor` | 1 | 0 | 未指定 / Unspecified | 当前客户端未安装；历史暂停时间未指定 / Absent from the current client; historical pause date unspecified |
+| dndecor | `dndecor` | 1 | 0 | 未指定 / Unspecified | 当前客户端未安装；历史暂停时间未指定 / Absent from the current client; historical pause date unspecified |
+| miners_delight | `miners_delight` | 1 | 0 | 未指定 / Unspecified | 当前客户端未安装；历史暂停时间未指定 / Absent from the current client; historical pause date unspecified |
+| moderntrainparts | `moderntrainparts` | 1 | 0 | 未指定 / Unspecified | 当前客户端未安装；历史暂停时间未指定 / Absent from the current client; historical pause date unspecified |
+| nethersdelight | `nethersdelight` | 1 | 0 | 未指定 / Unspecified | 当前客户端未安装；历史暂停时间未指定 / Absent from the current client; historical pause date unspecified |
+| starbunclemania | `starbunclemania` | 1 | 0 | 2025-12 | 新生魔艺／植物魔法相关，按维护计划暂停 / Ars or Botania family; paused by maintenance policy |
+| supplementariesdelight | `supplementariesdelight` | 1 | 0 | 未指定 / Unspecified | 当前客户端未安装；历史暂停时间未指定 / Absent from the current client; historical pause date unspecified |
+| terralith | `terralith` | 26 | 0 | 未指定 / Unspecified | 当前客户端未安装；历史暂停时间未指定 / Absent from the current client; historical pause date unspecified |
+| tofucraft | `tofucraft` | 1 | 0 | 未指定 / Unspecified | 当前客户端未安装；历史暂停时间未指定 / Absent from the current client; historical pause date unspecified |
+| tofucreate | `tofucreate` | 1 | 0 | 未指定 / Unspecified | 当前客户端未安装；历史暂停时间未指定 / Absent from the current client; historical pause date unspecified |
+| tofudelight | `tofudelight` | 1 | 0 | 未指定 / Unspecified | 当前客户端未安装；历史暂停时间未指定 / Absent from the current client; historical pause date unspecified |
+| totemfactory | `totemfactory` | 1 | 0 | 未指定 / Unspecified | 当前客户端未安装；历史暂停时间未指定 / Absent from the current client; historical pause date unspecified |
+| vinery | `vinery` | 1 | 0 | 未指定 / Unspecified | 当前客户端未安装；历史暂停时间未指定 / Absent from the current client; historical pause date unspecified |
+| Weather2 | `weather2` | 1 | 0 | 未指定 / Unspecified | 当前客户端未安装；历史暂停时间未指定 / Absent from the current client; historical pause date unspecified |
 
 ## 打包 / Build
 
@@ -122,3 +146,4 @@ Language and guide columns count files; guides include Markdown, images and SNBT
 
 首次公开发布仅修正一处 AE2 语言文件末尾逗号，并更新发布说明与资源包显示版本；已有译文、指南与图片保持原内容。
 The first public release removes a trailing comma from one AE2 language file and updates publication metadata; existing translation wording, guides and images are preserved.
+
