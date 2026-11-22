@@ -91,6 +91,9 @@ Support follows **the mods used on the CIR server and this localization project'
 | Sable<br>`sable` | **持续支持 / Active** | 服务器包含本模组。 / Included on the CIR server. |
 | Supplementaries<br>`supplementaries` | **持续支持 / Active** | 服务器包含本模组。 / Included on the CIR server. |
 | Terralith<br>`terralith` | **持续支持 / Active** | 服务器包含本模组。 / Included on the CIR server. |
+| Modern Train Parts<br>`moderntrainparts` | **可能将会支持 / Potential future support**  | 可能重新纳入汉化维护范围，目前暂无确定安排。 / May return to localization maintenance; no confirmed schedule. |
+| 锦制乐事 / Supplementaries Delight<br>`supplementariesdelight` | **可能将会支持 / Potential future support** | 可能重新纳入汉化维护范围，目前暂无确定安排。 / May return to localization maintenance; no confirmed schedule. |
+| 应用机械 / Applied Kinetics<br>`createappliedkinetics` | **可能将会支持 / Potential future support** | 可能重新纳入汉化维护范围，目前暂无确定安排。 / May return to localization maintenance; no confirmed schedule. |
 | Anvil Repairing<br>`anvilrepairing` | **暂缓支持 / On hold** | CIR服务器当前未使用该模组。 / Not currently used on the CIR server. |
 | Applied Botanics<br>`appbot` | **暂缓支持 / On hold** | 本汉化包不再支持植物魔法相关模组。 / This pack no longer supports Botania-related mods. |
 | Ars Creo<br>`ars_creo` | **暂缓支持 / On hold** | 本汉化包不再支持新生魔艺相关模组。 / This pack no longer supports Ars Nouveau-related mods. |
@@ -102,21 +105,18 @@ Support follows **the mods used on the CIR server and this localization project'
 | Create: Factory Logistics<br>`create_factory_logistics` | **暂缓支持 / On hold** | CIR服务器当前未使用该模组。 / Not currently used on the CIR server. |
 | `create_mechanical_extruder` | **暂缓支持 / On hold** | CIR服务器当前未使用该模组。 / Not currently used on the CIR server. |
 | `createsifter` | **暂缓支持 / On hold** | CIR服务器当前未使用该模组。 / Not currently used on the CIR server. |
-| `crystal_clear` | **暂缓支持 / On hold** | CIR服务器当前未使用该模组。 / Not currently used on the CIR server. |
+| `crystal_clear` | **暂缓支持 / On hold** | 当前模组无NeoForge 1.21.1版本。 / The mod doesn't support NeoForge 1.21.1. |
 | `design_decor` | **暂缓支持 / On hold** | CIR服务器当前未使用该模组。 / Not currently used on the CIR server. |
 | `dndecor` | **暂缓支持 / On hold** | CIR服务器当前未使用该模组。 / Not currently used on the CIR server. |
 | `miners_delight` | **暂缓支持 / On hold** | CIR服务器当前未使用该模组。 / Not currently used on the CIR server. |
-| `moderntrainparts` | **暂缓支持 / On hold** | CIR服务器当前未使用该模组。 / Not currently used on the CIR server. |
-| `nethersdelight` | **暂缓支持 / On hold** | CIR服务器当前未使用该模组。 / Not currently used on the CIR server. |
+| `nethersdelight` | **暂缓支持 / On hold** | 当前模组无NeoForge 1.21.1版本。/ The mod doesn't support NeoForge 1.21.1. |
 | `starbunclemania` | **暂缓支持 / On hold** | 本汉化包不再支持新生魔艺相关模组。 / This pack no longer supports Ars Nouveau-related mods. |
 | `tofucraft` | **暂缓支持 / On hold** | CIR服务器当前未使用该模组。 / Not currently used on the CIR server. |
 | `tofucreate` | **暂缓支持 / On hold** | CIR服务器当前未使用该模组。 / Not currently used on the CIR server. |
 | `tofudelight` | **暂缓支持 / On hold** | CIR服务器当前未使用该模组。 / Not currently used on the CIR server. |
 | `totemfactory` | **暂缓支持 / On hold** | CIR服务器当前未使用该模组。 / Not currently used on the CIR server. |
-| `vinery` | **暂缓支持 / On hold** | CIR服务器当前未使用该模组。 / Not currently used on the CIR server. |
+| `vinery` | **暂缓支持 / On hold** | 当前模组无NeoForge 1.21.1版本。 / The mod doesn't support NeoForge 1.21.1. |
 | Weather2<br>`weather2` | **暂缓支持 / On hold** | CIR服务器当前未使用该模组。 / Not currently used on the CIR server. |
-| 锦制乐事 / Supplementaries Delight<br>`supplementariesdelight` | **可能将会支持 / Potential future support** | 可能重新纳入汉化维护范围，目前暂无确定安排。 / May return to localization maintenance; no confirmed schedule. |
-| 应用机械 / Applied Kinetics<br>`createappliedkinetics` | **可能将会支持 / Potential future support** | 可能重新纳入汉化维护范围，目前暂无确定安排。 / May return to localization maintenance; no confirmed schedule. |
 
 ## 打包 / Build
 
