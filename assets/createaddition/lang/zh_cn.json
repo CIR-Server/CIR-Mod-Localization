@@ -1,0 +1,36 @@
+{
+  "block.createaddition.electric_pump": "电动泵",
+  "block.createaddition.servo_motor": "伺服电机",
+
+  "createaddition.ponder.connector.header": "使用接线器传输能量",
+  "createaddition.ponder.connector.text_1": "交流发电机是能量的生产者……",
+  "createaddition.ponder.connector.text_2": "……而电动马达则是能量的消费者",
+  "createaddition.ponder.connector.text_3": "生产者一侧需要处于「输出」模式的接线器，它会从所连接的方块中抽取能量",
+  "createaddition.ponder.connector.text_4": "消费者一侧需要处于「输入」模式的接线器，它会将能量送入所连接的方块",
+  "createaddition.ponder.connector.text_5": "用扳手右击接线器可循环切换其模式",
+  "createaddition.ponder.connector.text_6": "处于「无」模式的接线器不会与所连接的方块交互……",
+  "createaddition.ponder.connector.text_7": "……它们只通过线缆中继能量，因此可以放置在任意方块上",
+  "createaddition.ponder.connector.text_8": "手持铜线轴依次右击两个接线器，即可用线缆将它们连接起来",
+  "createaddition.ponder.connector.text_9": "现在能量从交流发电机流向电动马达",
+
+  "createaddition.ponder.connector_remove.header": "使用空线轴拆除线缆",
+  "createaddition.ponder.connector_remove.text_1": "手持空线轴右击线缆的两端即可将其拆除",
+  "createaddition.ponder.connector_remove.text_2": "线缆会以装满的线轴形式返还",
+
+  "createaddition.ponder.electric_pump_flow.header": "使用电动泵运输流体",
+  "createaddition.ponder.electric_pump_flow.text_1": "电动泵控制其所连接管道网络中的流体流向",
+  "createaddition.ponder.electric_pump_flow.text_2": "泵上的箭头指示流体的流动方向",
+  "createaddition.ponder.electric_pump_flow.text_3": "后方的管道网络正在抽取流体……",
+  "createaddition.ponder.electric_pump_flow.text_4": "……而前方的管道网络则将其向外输送",
+  "createaddition.ponder.electric_pump_flow.text_5": "可以用扳手反转其方向",
+
+  "createaddition.ponder.servo_motor.header": "使用伺服电机将方块旋转至精确角度",
+  "createaddition.ponder.servo_motor.text_1": "伺服电机利用红石信号将所连接的方块旋转到精确角度",
+  "createaddition.ponder.servo_motor.text_2": "它需要能源（FE）才能工作",
+  "createaddition.ponder.servo_motor.text_3": "这一侧通入红石信号时，伺服电机会转向「最大角度」……",
+  "createaddition.ponder.servo_motor.text_4": "……而另一侧通入红石信号时，则会转向「最小角度」",
+  "createaddition.ponder.servo_motor.text_5": "两侧的信号会相加，其中「最小角度」一侧按负值计算，因此等强的信号会相互抵消",
+  "createaddition.ponder.servo_motor.text_6": "伺服电机转动的幅度取决于叠加后信号的强度",
+  "createaddition.ponder.servo_motor.text_7": "在伺服电机的侧面滚动鼠标滚轮，可在 0° 到 180° 之间调整其最大与最小角度",
+  "createaddition.ponder.servo_motor.text_8": "将最大角度提升到 180° 后，同样的信号会让它转动两倍的距离"
+}

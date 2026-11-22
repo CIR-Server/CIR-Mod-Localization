@@ -1,0 +1,6 @@
+{
+	"block.ars_creo.starbuncle_wheel": "星宝石兽跑轮",
+	"ars_creo.page.starbuncle_wheel": "为机械动力产生转速，在星宝石兽跑轮前方放置金块可提高RPM。",
+	"ars_creo.page.behaviors": "Ars Creo 可为新生魔艺中的方块提供特殊的装置行为，包括法术炮塔和魔源罐。基本法术炮塔 - 与装置交互时发射法术。定时法术炮塔  - 每隔一段时间发射一次法术。附魔法术炮塔 - 每到达一个新的区块，就会发射一个魔法。魔源罐 - 可以成为装置的一部分，并被其他炮塔使用。",
+	"itemGroup.ars_creo.general": "Ars Creo"
+}

@@ -1,0 +1,16 @@
+{
+  "itemGroup.weather2": "天气、风暴与龙卷风",
+  "block.weather2.tornado_sensor": "龙卷风传感器",
+  "block.weather2.tornado_siren": "天气警报器",
+  "block.weather2.tornado_siren_manual": "手动红石警报器",
+  "block.weather2.wind_vane": "风向标",
+  "block.weather2.wind_turbine": "风力涡轮",
+  "block.weather2.weather_forecast": "天气预报",
+  "block.weather2.weather_machine": "天气机器（右键单击切换）",
+  "block.weather2.weather_deflector": "天气偏转器",
+  "block.weather2.anemometer": "风速计",
+  "block.weather2.sand_layer": "沙堆",
+  "item.weather2.weather_item": "金铁合金",
+  "item.weather2.sand_layer_placeable": "可放置的沙堆",
+  "item.weather2.pocket_sand": "口袋沙"
+}
